@@ -24,7 +24,7 @@ body {
   border-radius: 17px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 10px 10px 3px rgb(0, 0, 0);
-   border-top: 1px solid rgba(0, 0, 0, 0.7);
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
   border-left: 1px solid rgba(0, 0, 0, 0.7);
 }
 
