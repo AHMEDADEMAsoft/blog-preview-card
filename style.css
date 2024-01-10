@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.blog-card {
+  width: 375px;
+  height: 537px;
+  padding: 1.5rem;
+  border-radius: 17px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 3px rgb(0, 0, 0);
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+.img-container {
+  margin-bottom: 1.5rem;
+}
+
+.illustartion-img {
+  border-radius: 17px;
+}
+
+.btn-learn {
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.published-date {
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.catagory-title {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.title-details {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.avater-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avater-img {
+  width: 15%;
+}
+
+.avater-name {
+  font-weight: 800;
+}
