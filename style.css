@@ -18,8 +18,8 @@ body {
 }
 
 .blog-card {
-  width: 375px;
-
+  width: 385px;
+  height:522px;
   padding: 1.5rem;
   border-radius: 17px;
   background-color: hsl(0, 0%, 100%);
