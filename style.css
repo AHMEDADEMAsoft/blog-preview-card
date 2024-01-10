@@ -24,8 +24,8 @@ body {
   border-radius: 17px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 10px 10px 3px rgb(0, 0, 0);
-  border-top: 2px solid;
-  border-left: 2px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
 }
 
 .img-container {
