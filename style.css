@@ -18,11 +18,11 @@ body {
 }
 
 .blog-card {
-  width: 422px;
+  width: 385px;
   padding: 1.5rem;
   border-radius: 17px;
-  background-color: hsl(0, 0%, 100%);
-  box-shadow: 10px 10px 3px rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 8px rgb(0, 0, 0);
   border-top: 1px solid rgba(0, 0, 0, 0.7);
   border-left: 1px solid rgba(0, 0, 0, 0.7);
 }
@@ -52,11 +52,16 @@ body {
 }
 
 .catagory-title {
+  font-size: 1.8rem;
   font-weight: 800;
   margin-bottom: 1rem;
   cursor: pointer;
+  transition: color 0.3s ease-in;
 }
 
+.catagory-title:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
 
 .title-details {
   color: hsl(0, 0%, 50%);
@@ -67,7 +72,7 @@ body {
 .avater-container {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .avater-img {
