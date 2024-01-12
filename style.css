@@ -18,8 +18,7 @@ body {
 }
 
 .blog-card {
-  width: 385px;
-
+  width: 422px;
   padding: 1.5rem;
   border-radius: 17px;
   background-color: hsl(0, 0%, 100%);
@@ -55,7 +54,9 @@ body {
 .catagory-title {
   font-weight: 800;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
+
 
 .title-details {
   color: hsl(0, 0%, 50%);
